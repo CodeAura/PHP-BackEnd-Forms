@@ -55,6 +55,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script>
     username = document.getElementById("Naam").innerHTML
-    button = document.getElementById("button").onclick = function() {checkIfError()}
 
 </script>

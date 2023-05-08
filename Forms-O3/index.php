@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <!-- Form -->
         Naam: <input type="text" name="name">
-        <span class="error">* <?php echo $nameErr;?></span>
+        <span class="error">* <?php echo $nameErr; ?></span>
         <br>
         Email: <input type="email" name="email">
         <span class="error">* <?php echo $emailErr;?></span>
