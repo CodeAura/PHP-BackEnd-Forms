@@ -74,7 +74,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php if($Window == true){ ?>
   <div id="popup" class="w3-animate-bottom">
   <h1>Er Heerst paniek!</h1>
-  <p>Er heerst paniek in het Koninkrijk Gallifrey. Koning Egmond is ten einde raad en als koning ten einde raad is, dan roept hij zijn ten-einde raadsheer CodeAura</p>
+  <p>Er heerst paniek in het koninkrijk <?=$_POST["vraag3"]?>, Koning Egmod is ten einde raad en als koning <?=$_POST["vraag6"]?> ten einde raad is, dan roept hij zijn ten-einde-aadsheer <?=$_POST["vraag2"]?></p>
+  <p>"<?=$_POST["vraag2"]?>! Het is een ramp! het is een schande!"</p>
+  <p>"Sire, Majesteit, Uwe luidruchtigheid, wat is er aan de hand?"</p>
+  <p>"Mijn <?=$_POST["vraag1"]?> is verdwenen! Zo maar, zonder waarschuwing. En ik had net <?=$_POST["vraag5"]?> voor het gekocht!"</p>
+  <p>"Majesteit, uw <?=$_POST["vraag1"]?> komt vast vanzelf weer terug?"</p>
+  <p>"Ja, da's leuk en aardig, maar hoe moet ik in de tissentijd"<?=$_POST["vraag8"]?> leren?"</p>
+  <p>"Maar Sire, daar kunt u toch uw supercomputer voor gebruiken."</p>
+  <p>"<?=$_POST["vraag2"]?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."</p>
+  <p>"<?=$_POST["vraag4"]?>, sire."</p>
 </div>
 <?php } ?>
 
